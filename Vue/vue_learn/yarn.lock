@@ -159,9 +159,9 @@ array-flatten@1.1.1:
   integrity sha1-ml9pkFGx5wczKPKgCJaLZOopVdI=
 
 array-flatten@^2.1.0:
-  version "2.1.1"
-  resolved "http://registry.npm.taobao.org/array-flatten/download/array-flatten-2.1.1.tgz#426bb9da84090c1838d812c8150af20a8331e296"
-  integrity sha1-Qmu52oQJDBg42BLIFQryCoMx4pY=
+  version "2.1.2"
+  resolved "http://registry.npm.taobao.org/array-flatten/download/array-flatten-2.1.2.tgz#24ef80a28c1a893617e2149b0c6d0d788293b099"
+  integrity sha1-JO+AoowaiTYX4hSbDG0NeIKTsJk=
 
 array-includes@^3.0.3:
   version "3.0.3"
@@ -1253,14 +1253,14 @@ caniuse-api@^1.5.2:
     lodash.uniq "^4.5.0"
 
 caniuse-db@^1.0.30000529, caniuse-db@^1.0.30000634, caniuse-db@^1.0.30000639:
-  version "1.0.30000912"
-  resolved "http://registry.npm.taobao.org/caniuse-db/download/caniuse-db-1.0.30000912.tgz#29c739d8c8fae006de61b51f547bdbf02f5d867e"
-  integrity sha1-Kcc52Mj64AbeYbUfVHvb8C9dhn4=
+  version "1.0.30000914"
+  resolved "http://registry.npm.taobao.org/caniuse-db/download/caniuse-db-1.0.30000914.tgz#5df1edfb2407dd857bf33e7f346514316c7b9fa3"
+  integrity sha1-XfHt+yQH3YV78z5/NGUUMWx7n6M=
 
 caniuse-lite@^1.0.30000792, caniuse-lite@^1.0.30000805, caniuse-lite@^1.0.30000844:
-  version "1.0.30000912"
-  resolved "http://registry.npm.taobao.org/caniuse-lite/download/caniuse-lite-1.0.30000912.tgz#08e650d4090a9c0ab06bfd2b46b7d3ad6dcaea28"
-  integrity sha1-COZQ1AkKnAqwa/0rRrfTrW3K6ig=
+  version "1.0.30000914"
+  resolved "http://registry.npm.taobao.org/caniuse-lite/download/caniuse-lite-1.0.30000914.tgz#f802b4667c24d0255f54a95818dcf8e1aa41f624"
+  integrity sha1-+AK0Znwk0CVfVKlYGNz44apB9iQ=
 
 center-align@^0.1.1:
   version "0.1.3"
@@ -2072,9 +2072,9 @@ ejs@^2.5.7:
   integrity sha1-SY7A1JVlWrxvI81hho2SZGQHGqA=
 
 electron-to-chromium@^1.2.7, electron-to-chromium@^1.3.30, electron-to-chromium@^1.3.47:
-  version "1.3.85"
-  resolved "http://registry.npm.taobao.org/electron-to-chromium/download/electron-to-chromium-1.3.85.tgz#5c46f790aa96445cabc57eb9d17346b1e46476fe"
-  integrity sha1-XEb3kKqWRFyrxX650XNGseRkdv4=
+  version "1.3.88"
+  resolved "http://registry.npm.taobao.org/electron-to-chromium/download/electron-to-chromium-1.3.88.tgz#f36ab32634f49ef2b0fdc1e82e2d1cc17feb29e7"
+  integrity sha1-82qzJjT0nvKw/cHoLi0cwX/rKec=
 
 elliptic@^6.0.0:
   version "6.4.1"
@@ -2843,9 +2843,9 @@ hash-sum@^1.0.2:
   integrity sha1-M7QHd3VMZDJXPBIMw4CLvRDUfwQ=
 
 hash.js@^1.0.0, hash.js@^1.0.3:
-  version "1.1.5"
-  resolved "http://registry.npm.taobao.org/hash.js/download/hash.js-1.1.5.tgz#e38ab4b85dfb1e0c40fe9265c0e9b54854c23812"
-  integrity sha1-44q0uF37HgxA/pJlwOm1SFTCOBI=
+  version "1.1.7"
+  resolved "http://registry.npm.taobao.org/hash.js/download/hash.js-1.1.7.tgz#0babca538e8d4ee4a0f8988d68866537a003cf42"
+  integrity sha1-C6vKU46NTuSg+JiNaIZlN6ADz0I=
   dependencies:
     inherits "^2.0.3"
     minimalistic-assert "^1.0.1"
@@ -4490,9 +4490,9 @@ pkg-dir@^2.0.0:
     find-up "^2.1.0"
 
 portfinder@^1.0.13, portfinder@^1.0.9:
-  version "1.0.19"
-  resolved "http://registry.npm.taobao.org/portfinder/download/portfinder-1.0.19.tgz#07e87914a55242dcda5b833d42f018d6875b595f"
-  integrity sha1-B+h5FKVSQtzaW4M9QvAY1odbWV8=
+  version "1.0.20"
+  resolved "http://registry.npm.taobao.org/portfinder/download/portfinder-1.0.20.tgz#bea68632e54b2e13ab7b0c4775e9b41bf270e44a"
+  integrity sha1-vqaGMuVLLhOrewxHdem0G/Jw5Eo=
   dependencies:
     async "^1.5.2"
     debug "^2.2.0"

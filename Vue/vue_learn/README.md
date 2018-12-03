@@ -1,6 +1,6 @@
-# exchris
+# vue_learn
 
-> A Vue.js project
+> A vue.js project
 
 ## Build Setup
 

@@ -1,8 +1,8 @@
 {
-  "name": "exchris",
+  "name": "vue_learn",
   "version": "1.0.0",
-  "description": "A Vue.js project",
-  "author": "exchris",
+  "description": "A vue.js project",
+  "author": "dev.erxuan@gmail.com",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
@@ -10,7 +10,9 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "element-ui": "^2.4.11",
     "vue": "^2.5.2",
+    "vue-i18n": "^8.4.0",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
