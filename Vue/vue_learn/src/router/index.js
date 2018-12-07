@@ -25,6 +25,11 @@ export default new Router({
             path: "/tableProp",
             name: "TableProp",
             component: () => import('../components/demo/TableProp'),
+        },
+        {
+            path: "/prop",
+            name: "TableRemoteProp",
+            component: () => import('../components/demo/TableRemoteProp'),
         }
     ]
 })
