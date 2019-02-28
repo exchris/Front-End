@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<div id="app">
+    <div class="m-table">
+        <el-table :data="logs" style="width: 100%" stripe height="calc(100% - 60px)" @sort-change="sortChange" :header-cell-style="{
+          'background-color': '#fafafa',
+          'color': 'rgb(103, 194, 58)',
+          'border-bottom': '1px rgba(103, 194, 58, 0.43) solid'
+      }" :default-sort = "{prop: 'operatetime', order: 'descending'}">
+            <el-table-column type="expand">
+                <template slot-scope="props">
+                    <el-form label-position="left" inline class="demo-table-expand2">
+                        <el-form-item label="账号(md5)">
+                            <span>{{ props.row.account }}</span>
+                        </el-form-item><br/>
+                        <el-form-item label="目标链接">
+                            <div>{{ props.row.url }}</div>
+                        </el-form-item>
+                        <el-form-item label="提交内容">
+                            <div style="white-space: initial; width: calc(100% - 90px)">{{ props.row.post }}</div>
+                        </el-form-item>
+                    </el-form>
+                </template>
+            </el-table-column>
+            <el-table-column label="用户昵称" prop="nickname" sortable :header-align="table_align" :align="table_align"></el-table-column>
+            <el-table-column label="操作类型" prop="type" sortable="custom" :header-align="table_align" :align="table_align"></el-table-column>
+            <!--<el-table-column label="目标链接" prop="url" sortable :header-align="table_align" :align="table_align"></el-table-column>-->
+            <el-table-column label="操作时间" prop="operatetime" sortable :header-align="table_align" :align="table_align"></el-table-column>
+            <el-table-column label="序号" type="index" width="50"></el-table-column>
+        </el-table>
+    </div>
+    <el-pagination @size-change="handleSizeChange" @current-change="handleCurrentChange" :current-page="currentPage" :page-sizes="[10, 20, 30, 50]" :page-size="currentSize" layout="total, sizes, prev, pager, next, jumper" :total="total"></el-pagination>
+</div>
+</div>
+</body>
+</html>
