@@ -80,6 +80,10 @@
         </a>
       </li>
     </ul>
+    <h2>ElementUI</h2>
+    <ul>
+      <li><a href="">transition</a></li>
+    </ul>
   </div>
 </template>
 
@@ -89,7 +93,7 @@ export default {
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
-    }
+    };
   }
 }
 </script>
